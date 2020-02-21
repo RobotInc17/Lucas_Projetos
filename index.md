@@ -1,37 +1,34 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/RobotInc17/Lucas_Projetos/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RobotInc17/Lucas_Projetos/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css"></link>
+    <body id="body">
+        <div id="div">
+        <h1 id="title">Portfólio</h1>
+        <h2 id="titlet">Lucas Martins</h2>
+        </div>
+        <div id="div2">
+            <h2 id="header">Wordash</h2>
+            <p id="description">Aprenda expressões em inglês nesse aplicativo de trivia</p>
+            <img src="wordash.jpeg" width="100px" height="100px" id="image">
+            <a id="link" href="https://github.com/RobotInc17/Lucas_Projetos">GitHub</a>
+            <a id="link" href="https://play.google.com/store/apps/details?id=com.wordash.entrevos.wordashwordapp">Download</a>
+        </div>
+        <div id="div2">
+            <h2 id="header">Easy Messages</h2>
+            <p id="description">Um app para facilitar a comunicação no WhatsApp</p>
+            <img src="em.jpeg" width="100px" height="100px" id="image">
+            <a id="link" href="https://robotinc17.github.io/Easy-Messages/">Saiba Mais</a>
+            <a id="link" href="https://play.google.com/store/apps/details?id=com.robotincorporation.entrevos.easyMessages">Download</a>
+        </div>
+        <div id="div2">
+            <h2 id="header">The Code Challenge</h2>
+            <p id="description">Um quiz para testar seus conhecimentos de programação</p>
+            <img src="logo.jpeg" width="100px" height="100px" id="image">
+            <a id="link" href="https://github.com/RobotInc17/thecodechallenge">GitHub</a>
+            <a id="link" href="https://robotinc17.github.io/thecodechallenge/quiz.html">Site</a>
+        </div>
+    </body>
+</html>
